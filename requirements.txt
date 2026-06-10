@@ -1,0 +1,9 @@
+torch
+peft
+tensorboardX
+transformers>=4.43.1
+lightning==2.0.5
+Pillow
+numpy
+gradio
+(qwen)python -m pip install -U "transformers>=4.51.0" tokenizers

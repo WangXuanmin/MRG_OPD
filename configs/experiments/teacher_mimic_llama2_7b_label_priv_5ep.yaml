@@ -1,0 +1,64 @@
+dataset: mimic_cxr
+annotation: /public/home/ai_user_5/mimic_cxr/physionet.org/files/mimic_annotation_all.json
+base_dir: /public/home/ai_user_5/mimic_cxr/physionet.org/files/mimic-cxr-jpg/2.1.0/files
+
+model_name: branchgpt
+vision_model: /public/home/ai_user_5/MRG/rad-dino
+vision_model_type: auto
+llama_model: /public/home/ai_user_5/MRG/Llama-2-7b-chat-hf
+freeze_vm: true
+vis_use_lora: false
+llm_use_lora: true
+llm_lora_target_modules: q_proj,k_proj,v_proj,o_proj
+use_chat_template: false
+end_sym: </s>
+projector_type: qformer
+qformer_num_query_tokens: 32
+qformer_num_layers: 2
+qformer_num_heads: 8
+qformer_dropout: 0.1
+
+# Privileged KG label teacher. Labels are available to the teacher during training,
+# but no RadGraph KG token stream is injected into the image context.
+use_kg_label_loss: true
+kg_label_cache: dataset/mimic_kg_entity_labels.pt
+kg_num_labels: 512
+kg_label_loss_weight: 0.1
+kg_label_threshold: 0.5
+use_label_prompt: true
+label_prompt_fraction: 1.0
+label_prompt_max_items: 16
+use_kg_tokens: false
+
+savedmodel_path: ./save/teacher/llama2_7b_label_priv_5ep
+delta_file: ./save/teacher/llama2_7b_label_priv_5ep/checkpoints/trainable_epoch1_step4232_val0.187637_bleu0.221698_cider0.131850.pth
+learning_rate: 1e-5
+gradient_clip_val: 1
+weight_decay: 0.01
+warmup_ratio: 0.05
+
+max_length: 160
+min_new_tokens: 80
+max_new_tokens: 120
+repetition_penalty: 2.0
+length_penalty: 2.0
+temperature: 0
+
+batch_size: 8
+val_batch_size: 8
+test_batch_size: 8
+num_workers: 12
+devices: 8
+strategy: ddp_find_unused_parameters_true
+precision: bf16-mixed
+max_epochs: 5
+limit_train_batches: 1.0
+limit_val_batches: 1.0
+metric_val_batches: 0.05
+limit_test_batches: 1.0
+val_check_interval: 1.0
+accumulate_grad_batches: 2
+save_top_k: 2
+early_stop: true
+early_stop_patience: 5
+num_sanity_val_steps: 0

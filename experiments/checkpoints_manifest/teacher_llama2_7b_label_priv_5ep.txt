@@ -1,0 +1,4 @@
+145220397 2026-06-08 15:44 save/teacher/llama2_7b_label_priv_5ep/checkpoints/trainable_epoch3_step8464_val0.171541_bleu0.195507_cider0.085610.pth
+145220525 2026-06-08 17:57 save/teacher/llama2_7b_label_priv_5ep/checkpoints/trainable_epoch0_step2116_val0.182256_bleu0.209153_cider0.108488.pth
+145220525 2026-06-08 18:50 save/teacher/llama2_7b_label_priv_5ep/checkpoints/trainable_epoch1_step4232_val0.187637_bleu0.221698_cider0.131850.pth
+145220690 2026-06-08 16:37 save/teacher/llama2_7b_label_priv_5ep/checkpoints/trainable_epoch4_step10580_val0.179424_bleu0.205671_cider0.111287.pth

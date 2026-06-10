@@ -1,0 +1,2 @@
+145221532 2026-06-09 15:22 save/opsd/llama2_7b_label_teacher_image_student/checkpoints/opsd_student_epoch0_step8462_val0.147867_bleu0.142196_cider0.070276.pth
+145221825 2026-06-09 20:28 save/opsd/llama2_7b_label_teacher_image_student/checkpoints/opsd_student_epoch1_step33849_val0.149230_bleu0.143375_cider0.082841.pth

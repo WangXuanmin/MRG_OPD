@@ -1,0 +1,125 @@
+# student_llama2_image_only_sft_8gpu.log
+
+## Last metric-like lines
+ 'limit_test_batches',
+                  'limit_test_batches',
+ : 'precision': 'qformer''low_resource': 'projector_type'False['Bleu_4', 'ROUGE_L'],
+ 'require_branch_assets': 'test_batch_size': False,
+ 2['Bleu_4', 'ROUGE_L'],
+ 'savedmodel_path'['Bleu_4', 'ROUGE_L'],
+ 'use_label_prompt'['Bleu_4', 'ROUGE_L']: : : 'student_ckpt_file',
+ ['Bleu_4', 'ROUGE_L'],
+ 'min_new_tokens''test'None'vis_use_lora'None: : 'test_batch_size',
+ : : 'test_batch_size''bf16-mixed',
+ 'test_batch_size''vision_model_type''no_repeat_ngram_size',
+ : : 'use_chat_template': 'test_batch_size''preflight_only': : False8: : 'auto',
+ : 'auto': ['Bleu_4', 'ROUGE_L']0.05,
+ 'test_batch_size': 8,
+ 'vision_model_type'{'preflight': {'checked_samples_per_split': 0, 'splits': 'not scanned'}}: ['Bleu_4', 'ROUGE_L']
+ 'test_batch_size': 8,
+                                                                                                                                                                       [A{'Bleu_1': 0.38579003181327975, 'Bleu_2': 0.25549928987964227, 'Bleu_3': 0.1792951571882848, 'Bleu_4': 0.1323805049092249, 'ROUGE_L': 0.28749681886201045, 'METEOR': 0.15661963244602886, 'CIDEr': 0.0479530979624289, 'val_score': 
+                                                                                                                                                                       [ASaving trainable-only checkpoint at step 2116 to ./save/student/llama2_7b_image_only_sft/checkpoints/trainable_epoch0_step2116_val0.138560_bleu0.132381_cider0.047953.pth.
+Validation DataLoader 0: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:20<00:00, 20.80s/it][AEpoch 0: 100%|████████████████████| 4231/4231 [36:29<00:00,  1.93it/s, v_num=0, loss=0.707, lm_loss=0.703, kg_label_loss=0.0315, kg_label_match=0.991, val_score=0.139]
+                                                                                                                                                                       [AEpoch 0: 100%|████████████████████| 4231/4231 [36:29<00:00,  1.93it/s, v_num=0, loss=0.707, lm_loss=0.703, kg_label_loss=0.0315, kg_label_match=0.991, val_score=0.139][rank: 6] Metric val_score improved. New best score: 0.139
+[rank: 0] Metric val_score improved. New best score: 0.139
+[rank: 5] Metric val_score improved. New best score: 0.139
+[rank: 4] Metric val_score improved. New best score: 0.139
+[rank: 3] Metric val_score improved. New best score: 0.139
+[rank: 1] Metric val_score improved. New best score: 0.139
+[rank: 7] Metric val_score improved. New best score: 0.139
+[rank: 2] Metric val_score improved. New best score: 0.139
+Epoch 0:   0%|                               | 0/4231 [00:00<?, ?it/s, v_num=0, loss=0.707, lm_loss=0.703, kg_label_loss=0.0315, kg_label_match=0.991, val_score=0.139]Epoch 1:   0%|                               | 0/4231 [00:00<?, ?it/s, v_num=0, loss=0.707, lm_loss=0.703, kg_label_loss=0.0315, kg_label_match=0.991, val_score=0.139]Epoch 1:   0%|                     | 1/4231 [00:02<2:55:52,  2.
+                                                                                                                                                                       [A{'Bleu_1': 0.3890648089507306, 'Bleu_2': 0.25005356649406096, 'Bleu_3': 0.17365297754012032, 'Bleu_4': 0.12632120862285995, 'ROUGE_L': 0.2881166446184972, 'METEOR': 0.16203917526628134, 'CIDEr': 0.05175617351910372, 'val_score':
+Epoch 1: 100%|████████████████████| 4231/4231 [36:09<00:00,  1.95it/s, v_num=0, loss=0.708, lm_loss=0.704, kg_label_loss=0.0369, kg_label_match=0.990, val_score=0.139]
+Validation DataLoader 0: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:19<00:00, 19.64s/it][AEpoch 1: 100%|████████████████████| 4231/4231 [36:09<00:00,  1.95it/s, v_num=0, loss=0.708, lm_loss=0.704, kg_label_loss=0.0369, kg_label_match=0.990, val_score=0.137]
+                                                                                                                                                                       [AEpoch 1: 100%|████████████████████| 4231/4231 [36:09<00:00,  1.95it/s, v_num=0, loss=0.708, lm_loss=0.704, kg_label_loss=0.0369, kg_label_match=0.990, val_score=0.137]Epoch 1:   0%|                               | 0/4231 [00:00
+                                                                                                                                                                       [A{'Bleu_1': 0.3775025799792822, 'Bleu_2': 0.24383614201928813, 'Bleu_3': 0.16841851359778331, 'Bleu_4': 0.12396271185194577, 'ROUGE_L': 0.2878863062649606, 'METEOR': 0.16304099246495812, 'CIDEr': 0.05554053498473909, 'val_score':
+Epoch 2: 100%|████████████████████| 4231/4231 [36:15<00:00,  1.94it/s, v_num=0, loss=1.040, lm_loss=1.040, kg_label_loss=0.0415, kg_label_match=0.990, val_score=0.137]
+Validation DataLoader 0: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:19<00:00, 19.26s/it][AEpoch 2: 100%|████████████████████| 4231/4231 [36:16<00:00,  1.94it/s, v_num=0, loss=1.040, lm_loss=1.040, kg_label_loss=0.0415, kg_label_match=0.990, val_score=0.136]
+                                                                                                                                                                       [AEpoch 2: 100%|████████████████████| 4231/4231 [36:16<00:00,  1.94it/s, v_num=0, loss=1.040, lm_loss=1.040, kg_label_loss=0.0415, kg_label_match=0.990, val_score=0.136]Epoch 2:   0%|                               | 0/4231 [00:00
+                                                                                                                                                                       [A{'Bleu_1': 0.3721267343134454, 'Bleu_2': 0.23696184823213395, 'Bleu_3': 0.15985672231390013, 'Bleu_4': 0.11404183879485416, 'ROUGE_L': 0.2819353168732721, 'METEOR': 0.15819743253036556, 'CIDEr': 0.04249873034821658, 'val_score':
+Epoch 3: 100%|████████████████████| 4231/4231 [36:08<00:00,  1.95it/s, v_num=0, loss=1.180, lm_loss=1.170, kg_label_loss=0.0475, kg_label_match=0.988, val_score=0.136]
+Validation DataLoader 0: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:19<00:00, 19.09s/it][AEpoch 3: 100%|████████████████████| 4231/4231 [36:08<00:00,  1.95it/s, v_num=0, loss=1.180, lm_loss=1.170, kg_label_loss=0.0475, kg_label_match=0.988, val_score=0.131]
+                                                                                                                                                                       [AEpoch 3: 100%|████████████████████| 4231/4231 [36:08<00:00,  1.95it/s, v_num=0, loss=1.180, lm_loss=1.170, kg_label_loss=0.0475, kg_label_match=0.988, val_score=0.131]Epoch 3:   0%|                               | 0/4231 [00:00
+
+## Final 80 log lines
+Validation: 0it [00:00, ?it/s][A
+Validation:   0%|                                                                                                                                | 0/1 [00:00<?, ?it/s][A
+Validation DataLoader 0:   0%|                                                                                                                   | 0/1 [00:00<?, ?it/s][A/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply th
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1121: UserWarning: Passing `no_repeat_ngram_size` with `inputs_embeds` and without `input_ids` to `generate` will apply n-gram constraints only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply the penalty only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1121: UserWarning: Passing `no_repeat_ngram_size` with `inputs_embeds` and without `input_ids` to `generate` will apply n-gram constraints only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply the penalty only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1121: UserWarning: Passing `no_repeat_ngram_size` with `inputs_embeds` and without `input_ids` to `generate` will apply n-gram constraints only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply the penalty only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1121: UserWarning: Passing `no_repeat_ngram_size` with `inputs_embeds` and without `input_ids` to `generate` will apply n-gram constraints only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply the penalty only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1121: UserWarning: Passing `no_repeat_ngram_size` with `inputs_embeds` and without `input_ids` to `generate` will apply n-gram constraints only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply the penalty only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1121: UserWarning: Passing `no_repeat_ngram_size` with `inputs_embeds` and without `input_ids` to `generate` will apply n-gram constraints only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply the penalty only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1121: UserWarning: Passing `no_repeat_ngram_size` with `inputs_embeds` and without `input_ids` to `generate` will apply n-gram constraints only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply the penalty only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1121: UserWarning: Passing `no_repeat_ngram_size` with `inputs_embeds` and without `input_ids` to `generate` will apply n-gram constraints only to newly generated tokens, not to the prompt.
+  warnings.warn(
+
+Validation DataLoader 0: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:11<00:00, 11.70s/it][A                                                                                                                                                                       
+                                                                                                                                                                       [A{'Bleu_1': 0.3775025799792822, 'Bleu_2': 0.24383614201928813, 'Bleu_3': 0.16841851359778331, 'Bleu_4': 0.12396271185194577, 'ROUGE_L': 0.2878863062649606, 'METEOR': 0.16304099246495812, 'CIDEr': 0.05554053498473909, 'val_score':
+Epoch 2: 100%|████████████████████| 4231/4231 [36:15<00:00,  1.94it/s, v_num=0, loss=1.040, lm_loss=1.040, kg_label_loss=0.0415, kg_label_match=0.990, val_score=0.137]
+Validation DataLoader 0: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:19<00:00, 19.26s/it][AEpoch 2: 100%|████████████████████| 4231/4231 [36:16<00:00,  1.94it/s, v_num=0, loss=1.040, lm_loss=1.040, kg_label_loss=0.0415, kg_label_match=0.990, val_score=0.136]
+                                                                                                                                                                       [AEpoch 2: 100%|████████████████████| 4231/4231 [36:16<00:00,  1.94it/s, v_num=0, loss=1.040, lm_loss=1.040, kg_label_loss=0.0415, kg_label_match=0.990, val_score=0.136]Epoch 2:   0%|                               | 0/4231 [00:00
+Validation: 0it [00:00, ?it/s][A
+Validation:   0%|                                                                                                                                | 0/1 [00:00<?, ?it/s][A
+Validation DataLoader 0:   0%|                                                                                                                   | 0/1 [00:00<?, ?it/s][A/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply th
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1121: UserWarning: Passing `no_repeat_ngram_size` with `inputs_embeds` and without `input_ids` to `generate` will apply n-gram constraints only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply the penalty only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply the penalty only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1121: UserWarning: Passing `no_repeat_ngram_size` with `inputs_embeds` and without `input_ids` to `generate` will apply n-gram constraints only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply the penalty only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1121: UserWarning: Passing `no_repeat_ngram_size` with `inputs_embeds` and without `input_ids` to `generate` will apply n-gram constraints only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1121: UserWarning: Passing `no_repeat_ngram_size` with `inputs_embeds` and without `input_ids` to `generate` will apply n-gram constraints only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply the penalty only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1121: UserWarning: Passing `no_repeat_ngram_size` with `inputs_embeds` and without `input_ids` to `generate` will apply n-gram constraints only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply the penalty only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1121: UserWarning: Passing `no_repeat_ngram_size` with `inputs_embeds` and without `input_ids` to `generate` will apply n-gram constraints only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply the penalty only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1121: UserWarning: Passing `no_repeat_ngram_size` with `inputs_embeds` and without `input_ids` to `generate` will apply n-gram constraints only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply the penalty only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1121: UserWarning: Passing `no_repeat_ngram_size` with `inputs_embeds` and without `input_ids` to `generate` will apply n-gram constraints only to newly generated tokens, not to the prompt.
+  warnings.warn(
+
+Validation DataLoader 0: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:11<00:00, 11.39s/it][A                                                                                                                                                                       
+                                                                                                                                                                       [A{'Bleu_1': 0.3721267343134454, 'Bleu_2': 0.23696184823213395, 'Bleu_3': 0.15985672231390013, 'Bleu_4': 0.11404183879485416, 'ROUGE_L': 0.2819353168732721, 'METEOR': 0.15819743253036556, 'CIDEr': 0.04249873034821658, 'val_score':
+Epoch 3: 100%|████████████████████| 4231/4231 [36:08<00:00,  1.95it/s, v_num=0, loss=1.180, lm_loss=1.170, kg_label_loss=0.0475, kg_label_match=0.988, val_score=0.136]
+Validation DataLoader 0: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:19<00:00, 19.09s/it][AEpoch 3: 100%|████████████████████| 4231/4231 [36:08<00:00,  1.95it/s, v_num=0, loss=1.180, lm_loss=1.170, kg_label_loss=0.0475, kg_label_match=0.988, val_score=0.131]
+                                                                                                                                                                       [AEpoch 3: 100%|████████████████████| 4231/4231 [36:08<00:00,  1.95it/s, v_num=0, loss=1.180, lm_loss=1.170, kg_label_loss=0.0475, kg_label_match=0.988, val_score=0.131]Epoch 3:   0%|                               | 0/4231 [00:00

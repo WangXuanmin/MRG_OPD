@@ -1,0 +1,125 @@
+# teacher_llama2_label_priv_5ep_8gpu.log
+
+## Last metric-like lines
+Load checkpoint from ./save/teacher/llama2_7b_label_priv_5ep/checkpoints/trainable_epoch4_step10580_val0.179424_bleu0.205671_cider0.111287.pth
+Load checkpoint from ./save/teacher/llama2_7b_label_priv_5ep/checkpoints/trainable_epoch4_step10580_val0.179424_bleu0.205671_cider0.111287.pth
+Load checkpoint from ./save/teacher/llama2_7b_label_priv_5ep/checkpoints/trainable_epoch4_step10580_val0.179424_bleu0.205671_cider0.111287.pth
+Load checkpoint from ./save/teacher/llama2_7b_label_priv_5ep/checkpoints/trainable_epoch4_step10580_val0.179424_bleu0.205671_cider0.111287.pth
+Load checkpoint from ./save/teacher/llama2_7b_label_priv_5ep/checkpoints/trainable_epoch4_step10580_val0.179424_bleu0.205671_cider0.111287.pth
+Load checkpoint from ./save/teacher/llama2_7b_label_priv_5ep/checkpoints/trainable_epoch4_step10580_val0.179424_bleu0.205671_cider0.111287.pth
+                                                                                                                                                                         [A{'Bleu_1': 0.46308449548801, 'Bleu_2': 0.3398270410479571, 'Bleu_3': 0.2624206401036263, 'Bleu_4': 0.2091532851532352, 'ROUGE_L': 0.3431379866356112, 'METEOR': 0.2196973359561605, 'CIDEr': 0.10848775258697768, 'val_score': 0.1
+                                                                                                                                                                         [ASaving trainable-only checkpoint at step 2116 to ./save/teacher/llama2_7b_label_priv_5ep/checkpoints/trainable_epoch0_step2116_val0.182256_bleu0.209153_cider0.108488.pth.
+Validation DataLoader 0: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:24<00:00, 24.44s/it][AEpoch 0: 100%|██████████████████████| 4231/4231 [53:02<00:00,  1.33it/s, v_num=1, loss=0.518, lm_loss=0.515, kg_label_loss=0.0305, kg_label_match=0.991, val_score=0.182]
+                                                                                                                                                                         [AEpoch 0: 100%|██████████████████████| 4231/4231 [53:02<00:00,  1.33it/s, v_num=1, loss=0.518, lm_loss=0.515, kg_label_loss=0.0305, kg_label_match=0.991, val_score=0.182][rank: 7] Metric val_score improved. New best score: 0.18
+[rank: 0] Metric val_score improved. New best score: 0.182
+[rank: 4] Metric val_score improved. New best score: 0.182
+[rank: 5] Metric val_score improved. New best score: 0.182
+[rank: 1] Metric val_score improved. New best score: 0.182
+[rank: 3] Metric val_score improved. New best score: 0.182
+[rank: 6] Metric val_score improved. New best score: 0.182
+[rank: 2] Metric val_score improved. New best score: 0.182
+Epoch 0:   0%|                                 | 0/4231 [00:00<?, ?it/s, v_num=1, loss=0.518, lm_loss=0.515, kg_label_loss=0.0305, kg_label_match=0.991, val_score=0.182]Epoch 1:   0%|                                 | 0/4231 [00:00<?, ?it/s, v_num=1, loss=0.518, lm_loss=0.515, kg_label_loss=0.0305, kg_label_match=0.991, val_score=0.182]Epoch 1:   0%|                       | 1/4231 [00:02<3:23:5
+                                                                                                                                                                         [A{'Bleu_1': 0.46961325966841216, 'Bleu_2': 0.35248194938123517, 'Bleu_3': 0.27607751262448565, 'Bleu_4': 0.22169789381295188, 'ROUGE_L': 0.34689922240350524, 'METEOR': 0.2257736195144445, 'CIDEr': 0.13184964599215218, 'val_scor
+Epoch 1: 100%|██████████████████████| 4231/4231 [52:40<00:00,  1.34it/s, v_num=1, loss=0.495, lm_loss=0.491, kg_label_loss=0.0356, kg_label_match=0.990, val_score=0.182]
+                                                                                                                                                                         [ASaving trainable-only checkpoint at step 4232 to ./save/teacher/llama2_7b_label_priv_5ep/checkpoints/trainable_epoch1_step4232_val0.187637_bleu0.221698_cider0.131850.pth.
+Epoch 1: 100%|██████████████████████| 4231/4231 [52:40<00:00,  1.34it/s, v_num=1, loss=0.495, lm_loss=0.491, kg_label_loss=0.0356, kg_label_match=0.990, val_score=0.182]
+Validation DataLoader 0: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:23<00:00, 23.58s/it][AEpoch 1: 100%|██████████████████████| 4231/4231 [52:41<00:00,  1.34it/s, v_num=1, loss=0.495, lm_loss=0.491, kg_label_loss=0.0356, kg_label_match=0.990, val_score=0.188]
+                                                                                                                                                                         [AEpoch 1: 100%|██████████████████████| 4231/4231 [52:41<00:00,  1.34it/s, v_num=1, loss=0.495, lm_loss=0.491, kg_label_loss=0.0356, kg_label_match=0.990, val_score=0.188][rank: 3] Metric val_score improved by 0.005 >= min_delta
+[rank: 1] Metric val_score improved by 0.005 >= min_delta = 0.0. New best score: 0.188
+[rank: 2] Metric val_score improved by 0.005 >= min_delta = 0.0. New best score: 0.188
+[rank: 4] Metric val_score improved by 0.005 >= min_delta = 0.0. New best score: 0.188
+[rank: 5] Metric val_score improved by 0.005 >= min_delta = 0.0. New best score: 0.188
+[rank: 6] Metric val_score improved by 0.005 >= min_delta = 0.0. New best score: 0.188
+[rank: 7] Metric val_score improved by 0.005 >= min_delta = 0.0. New best score: 0.188
+[rank: 0] Metric val_score improved by 0.005 >= min_delta = 0.0. New best score: 0.188
+Epoch 1:   0%|                                 | 0/4231 [00:00<?, ?it/s, v_num=1, loss=0.495, lm_loss=0.491, kg_label_loss=0.0356, kg_label_match=0.990, val_score=0.188]Epoch 2:   0%|                                 | 0/4231 [00:00<?, ?it/s, v_num=1, loss=0.495, lm_loss=0.491, kg_label_loss=0.0356, kg_label_match=0.990, val_score=0.188]Epoch 2:   0%|                       | 1/4231 [00:02<3:15:0
+                                                                                                                                                                         [A{'Bleu_1': 0.4638529886913441, 'Bleu_2': 0.33983638092676516, 'Bleu_3': 0.26313121188896843, 'Bleu_4': 0.2097805238093208, 'ROUGE_L': 0.3407860394836155, 'METEOR': 0.22250219912186178, 'CIDEr': 0.11843203744501653, 'val_score'
+Epoch 2: 100%|███████████████████████| 4231/4231 [52:28<00:00,  1.34it/s, v_num=1, loss=0.877, lm_loss=0.873, kg_label_loss=0.041, kg_label_match=0.990, val_score=0.188]
+Validation DataLoader 0: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:22<00:00, 22.57s/it][AEpoch 2: 100%|███████████████████████| 4231/4231 [52:29<00:00,  1.34it/s, v_num=1, loss=0.877, lm_loss=0.873, kg_label_loss=0.041, kg_label_match=0.990, val_score=0.182]
+                                                                                                                                                                         [AEpoch 2: 100%|███████████████████████| 4231/4231 [52:29<00:00,  1.34it/s, v_num=1, loss=0.877, lm_loss=0.873, kg_label_loss=0.041, kg_label_match=0.990, val_score=0.182]Epoch 2:   0%|                                  | 0/4231
+                                                                                                                                                                         [A{'Bleu_1': 0.4602061855669154, 'Bleu_2': 0.33741604447442325, 'Bleu_3': 0.26118604659741984, 'Bleu_4': 0.2093334047067409, 'ROUGE_L': 0.3468394552323467, 'METEOR': 0.2173154589938894, 'CIDEr': 0.09084675424987443, 'val_score':
+Epoch 3: 100%|██████████████████████| 4231/4231 [52:42<00:00,  1.34it/s, v_num=1, loss=1.030, lm_loss=1.020, kg_label_loss=0.0462, kg_label_match=0.988, val_score=0.182]
+Validation DataLoader 0: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:22<00:00, 22.99s/it][AEpoch 3: 100%|██████████████████████| 4231/4231 [52:43<00:00,  1.34it/s, v_num=1, loss=1.030, lm_loss=1.020, kg_label_loss=0.0462, kg_label_match=0.988, val_score=0.184]
+                                                                                                                                                                         [AEpoch 3: 100%|██████████████████████| 4231/4231 [52:43<00:00,  1.34it/s, v_num=1, loss=1.030, lm_loss=1.020, kg_label_loss=0.0462, kg_label_match=0.988, val_score=0.184]Epoch 3:   0%|                                 | 0/4231 
+
+## Final 80 log lines
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1121: UserWarning: Passing `no_repeat_ngram_size` with `inputs_embeds` and without `input_ids` to `generate` will apply n-gram constraints only to newly generated tokens, not to the prompt.
+  warnings.warn(
+[transformers] Both `max_new_tokens` (=120) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=120) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply the penalty only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1121: UserWarning: Passing `no_repeat_ngram_size` with `inputs_embeds` and without `input_ids` to `generate` will apply n-gram constraints only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply the penalty only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1121: UserWarning: Passing `no_repeat_ngram_size` with `inputs_embeds` and without `input_ids` to `generate` will apply n-gram constraints only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply the penalty only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1121: UserWarning: Passing `no_repeat_ngram_size` with `inputs_embeds` and without `input_ids` to `generate` will apply n-gram constraints only to newly generated tokens, not to the prompt.
+  warnings.warn(
+[transformers] Both `max_new_tokens` (=120) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply the penalty only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1121: UserWarning: Passing `no_repeat_ngram_size` with `inputs_embeds` and without `input_ids` to `generate` will apply n-gram constraints only to newly generated tokens, not to the prompt.
+  warnings.warn(
+[transformers] Both `max_new_tokens` (=120) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply the penalty only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1121: UserWarning: Passing `no_repeat_ngram_size` with `inputs_embeds` and without `input_ids` to `generate` will apply n-gram constraints only to newly generated tokens, not to the prompt.
+  warnings.warn(
+
+Validation DataLoader 0: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:14<00:00, 14.56s/it][A                                                                                                                                                                         
+                                                                                                                                                                         [A{'Bleu_1': 0.4638529886913441, 'Bleu_2': 0.33983638092676516, 'Bleu_3': 0.26313121188896843, 'Bleu_4': 0.2097805238093208, 'ROUGE_L': 0.3407860394836155, 'METEOR': 0.22250219912186178, 'CIDEr': 0.11843203744501653, 'val_score'
+Epoch 2: 100%|███████████████████████| 4231/4231 [52:28<00:00,  1.34it/s, v_num=1, loss=0.877, lm_loss=0.873, kg_label_loss=0.041, kg_label_match=0.990, val_score=0.188]
+Validation DataLoader 0: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:22<00:00, 22.57s/it][AEpoch 2: 100%|███████████████████████| 4231/4231 [52:29<00:00,  1.34it/s, v_num=1, loss=0.877, lm_loss=0.873, kg_label_loss=0.041, kg_label_match=0.990, val_score=0.182]
+                                                                                                                                                                         [AEpoch 2: 100%|███████████████████████| 4231/4231 [52:29<00:00,  1.34it/s, v_num=1, loss=0.877, lm_loss=0.873, kg_label_loss=0.041, kg_label_match=0.990, val_score=0.182]Epoch 2:   0%|                                  | 0/4231
+Validation: 0it [00:00, ?it/s][A
+Validation:   0%|                                                                                                                                  | 0/1 [00:00<?, ?it/s][A
+Validation DataLoader 0:   0%|                                                                                                                     | 0/1 [00:00<?, ?it/s][A[transformers] Both `max_new_tokens` (=120) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers
+[transformers] Both `max_new_tokens` (=120) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=120) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=120) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=120) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=120) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply the penalty only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1121: UserWarning: Passing `no_repeat_ngram_size` with `inputs_embeds` and without `input_ids` to `generate` will apply n-gram constraints only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply the penalty only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1121: UserWarning: Passing `no_repeat_ngram_size` with `inputs_embeds` and without `input_ids` to `generate` will apply n-gram constraints only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply the penalty only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1121: UserWarning: Passing `no_repeat_ngram_size` with `inputs_embeds` and without `input_ids` to `generate` will apply n-gram constraints only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply the penalty only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1121: UserWarning: Passing `no_repeat_ngram_size` with `inputs_embeds` and without `input_ids` to `generate` will apply n-gram constraints only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply the penalty only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1121: UserWarning: Passing `no_repeat_ngram_size` with `inputs_embeds` and without `input_ids` to `generate` will apply n-gram constraints only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply the penalty only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1121: UserWarning: Passing `no_repeat_ngram_size` with `inputs_embeds` and without `input_ids` to `generate` will apply n-gram constraints only to newly generated tokens, not to the prompt.
+  warnings.warn(
+[transformers] Both `max_new_tokens` (=120) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply the penalty only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1121: UserWarning: Passing `no_repeat_ngram_size` with `inputs_embeds` and without `input_ids` to `generate` will apply n-gram constraints only to newly generated tokens, not to the prompt.
+  warnings.warn(
+[transformers] Both `max_new_tokens` (=120) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply the penalty only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1121: UserWarning: Passing `no_repeat_ngram_size` with `inputs_embeds` and without `input_ids` to `generate` will apply n-gram constraints only to newly generated tokens, not to the prompt.
+  warnings.warn(
+
+Validation DataLoader 0: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:14<00:00, 14.97s/it][A                                                                                                                                                                         
+                                                                                                                                                                         [A{'Bleu_1': 0.4602061855669154, 'Bleu_2': 0.33741604447442325, 'Bleu_3': 0.26118604659741984, 'Bleu_4': 0.2093334047067409, 'ROUGE_L': 0.3468394552323467, 'METEOR': 0.2173154589938894, 'CIDEr': 0.09084675424987443, 'val_score':
+Epoch 3: 100%|██████████████████████| 4231/4231 [52:42<00:00,  1.34it/s, v_num=1, loss=1.030, lm_loss=1.020, kg_label_loss=0.0462, kg_label_match=0.988, val_score=0.182]
+Validation DataLoader 0: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:22<00:00, 22.99s/it][AEpoch 3: 100%|██████████████████████| 4231/4231 [52:43<00:00,  1.34it/s, v_num=1, loss=1.030, lm_loss=1.020, kg_label_loss=0.0462, kg_label_match=0.988, val_score=0.184]
+                                                                                                                                                                         [AEpoch 3: 100%|██████████████████████| 4231/4231 [52:43<00:00,  1.34it/s, v_num=1, loss=1.030, lm_loss=1.020, kg_label_loss=0.0462, kg_label_match=0.988, val_score=0.184]Epoch 3:   0%|                                 | 0/4231 

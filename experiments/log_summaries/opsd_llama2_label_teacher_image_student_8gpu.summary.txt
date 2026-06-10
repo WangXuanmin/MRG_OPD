@@ -1,0 +1,125 @@
+# opsd_llama2_label_teacher_image_student_8gpu.log
+
+## Last metric-like lines
+             'llama_model': '/public/home/ai_user_5/MRG/Llama-2-7b-chat-hf''./save/teacher/llama2_7b_label_priv_5ep/checkpoints/trainable_epoch1_step4232_val0.187637_bleu0.221698_cider0.131850.pth',
+             'precision'8'./save/teacher/llama2_7b_label_priv_5ep/checkpoints/trainable_epoch1_step4232_val0.187637_bleu0.221698_cider0.131850.pth'0'annotation'None: : ,
+             'Known observations:': './save/teacher/llama2_7b_label_priv_5ep/checkpoints/trainable_epoch1_step4232_val0.187637_bleu0.221698_cider0.131850.pth',
+             './save/teacher/llama2_7b_label_priv_5ep/checkpoints/trainable_epoch1_step4232_val0.187637_bleu0.221698_cider0.131850.pth': : 'diversity_penalty': ,
+             False'config': 'report_prompt': 'limit_test_batches',
+             './save/teacher/llama2_7b_label_priv_5ep/checkpoints/trainable_epoch1_step4232_val0.187637_bleu0.221698_cider0.131850.pth',
+             'devices''every_n_train_steps''freeze_vm'16'./save/teacher/llama2_7b_label_priv_5ep': 'end_sym''./save/teacher/llama2_7b_label_priv_5ep/checkpoints/trainable_epoch1_step4232_val0.187637_bleu0.221698_cider0.131850.pth': : ,
+             False00['Bleu_4', 'ROUGE_L']'diversity_penalty'False,
+             'freeze_vm''kg_num_labels''freeze_vm': : 0.1: 'test_batch_size'120: 512,
+             'query,value': 'limit_test_batches'64,
+             'limit_test_batches',
+             : : 'limit_test_batches',
+             'limit_test_batches',
+             'limit_test_batches''metric_val_batches'5'llm_alpha''qformer_num_heads',
+             : 5'num_workers'['Bleu_4', 'ROUGE_L'],
+             2.0'opsd_entity_weight': : 'test_batch_size',
+             2.0'qformer_dropout'['Bleu_4', 'ROUGE_L']: ,
+             : 'use_label_prompt'['Bleu_4', 'ROUGE_L']: ,
+             ['Bleu_4', 'ROUGE_L']: ,
+             'require_branch_assets'None'vis_lora_target_modules'['Bleu_4', 'ROUGE_L']: : : 'teacher_delta_file',
+             'teacher_ckpt_file''test_batch_size''vision_model_type''scorer_types': : : : 8,
+             None'train_shuffle''auto'False['Bleu_4', 'ROUGE_L']: ,
+             True'teacher_config''warmup_ratio''strategy': 'test_batch_size': ,
+             'test_batch_size': 'student_ckpt_file': : 'train_shuffle': False: ,
+             TrueFalse: 'teacher_delta_file''test_batch_size''weights',
+             : 'test_batch_size''validate',
+Load checkpoint from save/opsd/llama2_7b_label_teacher_image_student/checkpoints/opsd_student_epoch1_step33849_val0.149230_bleu0.143375_cider0.082841.pth
+Load checkpoint from save/opsd/llama2_7b_label_teacher_image_student/checkpoints/opsd_student_epoch1_step33849_val0.149230_bleu0.143375_cider0.082841.pth
+Load checkpoint from save/opsd/llama2_7b_label_teacher_image_student/checkpoints/opsd_student_epoch1_step33849_val0.149230_bleu0.143375_cider0.082841.pth
+Load checkpoint from save/opsd/llama2_7b_label_teacher_image_student/checkpoints/opsd_student_epoch1_step33849_val0.149230_bleu0.143375_cider0.082841.pth
+Load checkpoint from save/opsd/llama2_7b_label_teacher_image_student/checkpoints/opsd_student_epoch1_step33849_val0.149230_bleu0.143375_cider0.082841.pth
+Load checkpoint from save/opsd/llama2_7b_label_teacher_image_student/checkpoints/opsd_student_epoch1_step33849_val0.149230_bleu0.143375_cider0.082841.pth
+Load checkpoint from save/opsd/llama2_7b_label_teacher_image_student/checkpoints/opsd_student_epoch1_step33849_val0.149230_bleu0.143375_cider0.082841.pth
+Load checkpoint from save/teacher/llama2_7b_label_priv_5ep/checkpoints/trainable_epoch1_step4232_val0.187637_bleu0.221698_cider0.131850.pth
+Load checkpoint from save/teacher/llama2_7b_label_priv_5ep/checkpoints/trainable_epoch1_step4232_val0.187637_bleu0.221698_cider0.131850.pth
+Load checkpoint from save/teacher/llama2_7b_label_priv_5ep/checkpoints/trainable_epoch1_step4232_val0.187637_bleu0.221698_cider0.131850.pth
+Load checkpoint from save/teacher/llama2_7b_label_priv_5ep/checkpoints/trainable_epoch1_step4232_val0.187637_bleu0.221698_cider0.131850.pth
+Load checkpoint from save/teacher/llama2_7b_label_priv_5ep/checkpoints/trainable_epoch1_step4232_val0.187637_bleu0.221698_cider0.131850.pth
+Load checkpoint from save/teacher/llama2_7b_label_priv_5ep/checkpoints/trainable_epoch1_step4232_val0.187637_bleu0.221698_cider0.131850.pth
+Load checkpoint from save/teacher/llama2_7b_label_priv_5ep/checkpoints/trainable_epoch1_step4232_val0.187637_bleu0.221698_cider0.131850.pth
+
+## Final 80 log lines
+Loading Q-Former projector: 32 queries, 2 layers, 8 heads
+trainable params: 16,777,216 || all params: 6,755,192,832 || trainable%: 0.24836028248556738
+Loading LLAMA LoRA Done
+trainable params: 16,777,216 || all params: 6,755,192,832 || trainable%: 0.24836028248556738
+Loading LLAMA LoRA Done
+trainable params: 16,777,216 || all params: 6,755,192,832 || trainable%: 0.24836028248556738
+Loading LLAMA LoRA Done
+Loading Q-Former projector: 32 queries, 2 layers, 8 heads
+Loading Q-Former projector: 32 queries, 2 layers, 8 heads
+Loading Q-Former projector: 32 queries, 2 layers, 8 heads
+trainable params: 16,777,216 || all params: 6,755,192,832 || trainable%: 0.24836028248556738
+Loading LLAMA LoRA Done
+trainable params: 16,777,216 || all params: 6,755,192,832 || trainable%: 0.24836028248556738
+Loading LLAMA LoRA Done
+Loading Q-Former projector: 32 queries, 2 layers, 8 heads
+Loading Q-Former projector: 32 queries, 2 layers, 8 heads
+Load checkpoint from save/teacher/llama2_7b_label_priv_5ep/checkpoints/trainable_epoch1_step4232_val0.187637_bleu0.221698_cider0.131850.pth
+Load checkpoint from save/teacher/llama2_7b_label_priv_5ep/checkpoints/trainable_epoch1_step4232_val0.187637_bleu0.221698_cider0.131850.pth
+Load checkpoint from save/teacher/llama2_7b_label_priv_5ep/checkpoints/trainable_epoch1_step4232_val0.187637_bleu0.221698_cider0.131850.pth
+Load checkpoint from save/teacher/llama2_7b_label_priv_5ep/checkpoints/trainable_epoch1_step4232_val0.187637_bleu0.221698_cider0.131850.pth
+Load checkpoint from save/teacher/llama2_7b_label_priv_5ep/checkpoints/trainable_epoch1_step4232_val0.187637_bleu0.221698_cider0.131850.pth
+Load checkpoint from save/teacher/llama2_7b_label_priv_5ep/checkpoints/trainable_epoch1_step4232_val0.187637_bleu0.221698_cider0.131850.pth
+[rank: 3] Global seed set to 42
+[rank: 4] Global seed set to 42
+[rank: 5] Global seed set to 42
+[rank: 7] Global seed set to 42
+[rank: 2] Global seed set to 42
+[rank: 1] Global seed set to 42
+Load checkpoint from save/teacher/llama2_7b_label_priv_5ep/checkpoints/trainable_epoch1_step4232_val0.187637_bleu0.221698_cider0.131850.pth
+[rank: 6] Global seed set to 42
+Initializing distributed: GLOBAL_RANK: 3, MEMBER: 4/8
+Initializing distributed: GLOBAL_RANK: 5, MEMBER: 6/8
+Initializing distributed: GLOBAL_RANK: 4, MEMBER: 5/8
+Initializing distributed: GLOBAL_RANK: 1, MEMBER: 2/8
+Initializing distributed: GLOBAL_RANK: 6, MEMBER: 7/8
+Initializing distributed: GLOBAL_RANK: 2, MEMBER: 3/8
+Initializing distributed: GLOBAL_RANK: 7, MEMBER: 8/8
+----------------------------------------------------------------------------------------------------
+distributed_backend=nccl
+All distributed processes registered. Starting with 8 processes
+----------------------------------------------------------------------------------------------------
+
+You are using a CUDA device ('NVIDIA Graphics Device') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+[transformers] The `use_fast` parameter is deprecated and will be removed in a future version. Use `backend="torchvision"` instead of `use_fast=True`, or `backend="pil"` instead of `use_fast=False`.
+[transformers] The `use_fast` parameter is deprecated and will be removed in a future version. Use `backend="torchvision"` instead of `use_fast=True`, or `backend="pil"` instead of `use_fast=False`.
+[transformers] The `use_fast` parameter is deprecated and will be removed in a future version. Use `backend="torchvision"` instead of `use_fast=True`, or `backend="pil"` instead of `use_fast=False`.
+[transformers] The `use_fast` parameter is deprecated and will be removed in a future version. Use `backend="torchvision"` instead of `use_fast=True`, or `backend="pil"` instead of `use_fast=False`.
+[transformers] The `use_fast` parameter is deprecated and will be removed in a future version. Use `backend="torchvision"` instead of `use_fast=True`, or `backend="pil"` instead of `use_fast=False`.
+[transformers] The `use_fast` parameter is deprecated and will be removed in a future version. Use `backend="torchvision"` instead of `use_fast=True`, or `backend="pil"` instead of `use_fast=False`.
+[transformers] The `use_fast` parameter is deprecated and will be removed in a future version. Use `backend="torchvision"` instead of `use_fast=True`, or `backend="pil"` instead of `use_fast=False`.
+[transformers] The `use_fast` parameter is deprecated and will be removed in a future version. Use `backend="torchvision"` instead of `use_fast=True`, or `backend="pil"` instead of `use_fast=False`.
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7]
+LOCAL_RANK: 1 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7]
+LOCAL_RANK: 3 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7]
+LOCAL_RANK: 4 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7]
+LOCAL_RANK: 5 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7]
+LOCAL_RANK: 6 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7]
+LOCAL_RANK: 7 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7]
+LOCAL_RANK: 2 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7]
+Loading `train_dataloader` to estimate number of stepping batches.
+
+  | Name           | Type              | Params
+-----------------------------------------------------
+0 | student        | BranchGPT         | 6.9 B 
+1 | teacher        | BranchGPT         | 6.9 B 
+2 | entity_distill | BCEWithLogitsLoss | 0     
+-----------------------------------------------------
+36.2 M    Trainable params
+13.7 B    Non-trainable params
+13.7 B    Total params
+54,889.847Total estimated model params size (MB)
+Training: 0it [00:00, ?it/s]Training:   0%|                                                                                                        | 0/33849 [00:00<?, ?it/s]Epoch 0:   0%|                                                                                                         | 0/33849 [00:00<?, ?it/s]Epoch 0:   0%|                                                                
+[rank5]:[W610 13:30:45.670696828 reducer.cpp:1400] Warning: find_unused_parameters=True was specified in DDP constructor, but did not find any unused parameters in the forward pass. This flag results in an extra traversal of the autograd graph every iteration,  which can adversely affect performance. If your model indeed never has any unused parameters in the forward pass, consider turning this fl
+[rank2]:[W610 13:30:45.670728497 reducer.cpp:1400] Warning: find_unused_parameters=True was specified in DDP constructor, but did not find any unused parameters in the forward pass. This flag results in an extra traversal of the autograd graph every iteration,  which can adversely affect performance. If your model indeed never has any unused parameters in the forward pass, consider turning this fl
+[rank4]:[W610 13:30:45.670752159 reducer.cpp:1400] Warning: find_unused_parameters=True was specified in DDP constructor, but did not find any unused parameters in the forward pass. This flag results in an extra traversal of the autograd graph every iteration,  which can adversely affect performance. If your model indeed never has any unused parameters in the forward pass, consider turning this fl
+[rank3]:[W610 13:30:45.670798932 reducer.cpp:1400] Warning: find_unused_parameters=True was specified in DDP constructor, but did not find any unused parameters in the forward pass. This flag results in an extra traversal of the autograd graph every iteration,  which can adversely affect performance. If your model indeed never has any unused parameters in the forward pass, consider turning this fl
+[rank6]:[W610 13:30:45.670813262 reducer.cpp:1400] Warning: find_unused_parameters=True was specified in DDP constructor, but did not find any unused parameters in the forward pass. This flag results in an extra traversal of the autograd graph every iteration,  which can adversely affect performance. If your model indeed never has any unused parameters in the forward pass, consider turning this fl
+[rank0]:[W610 13:30:45.670932259 reducer.cpp:1400] Warning: find_unused_parameters=True was specified in DDP constructor, but did not find any unused parameters in the forward pass. This flag results in an extra traversal of the autograd graph every iteration,  which can adversely affect performance. If your model indeed never has any unused parameters in the forward pass, consider turning this fl
+[rank7]:[W610 13:30:45.671015141 reducer.cpp:1400] Warning: find_unused_parameters=True was specified in DDP constructor, but did not find any unused parameters in the forward pass. This flag results in an extra traversal of the autograd graph every iteration,  which can adversely affect performance. If your model indeed never has any unused parameters in the forward pass, consider turning this fl
+Epoch 0:   0%|        | 2/33849 [00:06<30:34:21,  3.25s/it, v_num=3, loss=1.060, student_loss=1.010, opsd_kl_loss=0.478, opsd_entity_loss=0.0359]Epoch 0:   0%|        | 2/33849 [00:06<30:34:53,  3.25s/it, v_num=3, loss=0.857, student_loss=0.810, opsd_kl_loss=0.463, opsd_entity_loss=0.0372]Epoch 0:   0%|        | 3/33849 [00:06<21:52:45,  2.33s/it, v_num=3, loss=0.857, student_loss=0.810, opsd_k

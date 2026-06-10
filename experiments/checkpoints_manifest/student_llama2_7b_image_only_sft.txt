@@ -1,0 +1,1 @@
+145220397 2026-06-09 11:37 save/student/llama2_7b_image_only_sft/checkpoints/trainable_epoch0_step2116_val0.138560_bleu0.132381_cider0.047953.pth

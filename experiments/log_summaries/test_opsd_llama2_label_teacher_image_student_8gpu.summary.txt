@@ -1,0 +1,125 @@
+# test_opsd_llama2_label_teacher_image_student_8gpu.log
+
+## Last metric-like lines
+ 'limit_test_batches': 1.0,
+ : 'annotation': 8'save/opsd/llama2_7b_label_teacher_image_student/checkpoints/opsd_student_epoch0_step8462_val0.147867_bleu0.142196_cider0.070276.pth',
+ 'do_sample''save/opsd/llama2_7b_label_teacher_image_student/checkpoints/opsd_student_epoch0_step8462_val0.147867_bleu0.142196_cider0.070276.pth': ,
+ 'save/opsd/llama2_7b_label_teacher_image_student/checkpoints/opsd_student_epoch0_step8462_val0.147867_bleu0.142196_cider0.070276.pth',
+ 'save/opsd/llama2_7b_label_teacher_image_student/checkpoints/opsd_student_epoch0_step8462_val0.147867_bleu0.142196_cider0.070276.pth',
+ 'kg_token_dropout''kg_relation_vocab_size': : : : : 'diversity_penalty''save/opsd/llama2_7b_label_teacher_image_student/checkpoints/opsd_student_epoch0_step8462_val0.147867_bleu0.142196_cider0.070276.pth'163'</s>',
+ 'kg_token_cache''diversity_penalty'False'find_unused_parameters'['Bleu_4', 'ROUGE_L']: ,
+ 'configs/experiments/teacher_mimic_llama2_7b_label_priv_5ep.yaml''limit_test_batches''global_only''kg_max_nodes',
+ 1'./save/teacher/llama2_7b_label_priv_5ep/checkpoints/trainable_epoch1_step4232_val0.187637_bleu0.221698_cider0.131850.pth'1.0'kg_max_text_tokens''learning_rate',
+ 'data_sample_check''limit_test_batches''/public/home/ai_user_5/MRG/Llama-2-7b-chat-hf''early_stop_min_delta'16'test_batch_size': : ,
+ True'llama_model'0.1'save/opsd/llama2_7b_label_teacher_image_student/checkpoints/opsd_student_epoch0_step8462_val0.147867_bleu0.142196_cider0.070276.pth',
+ 3False'vis_lora_target_modules''limit_test_batches''global_only',
+ 'limit_test_batches',
+ 0.03: 'limit_test_batches',
+ : 0'preflight_only''limit_test_batches'1.0,
+ : 'opsd_max_kl_tokens': 'report_prompt': 'min_lr'['Bleu_4', 'ROUGE_L']32: : ,
+ './save/teacher/llama2_7b_label_priv_5ep/checkpoints/trainable_epoch1_step4232_val0.187637_bleu0.221698_cider0.131850.pth''min_lr',
+ 1e-060'test': ['Bleu_4', 'ROUGE_L']True,
+ 'opsd_max_kl_tokens''test_batch_size': ,
+ 'configs/experiments/teacher_mimic_llama2_7b_label_priv_5ep.yaml'['Bleu_4', 'ROUGE_L']: 8,
+ './save/teacher/llama2_7b_label_priv_5ep/checkpoints/trainable_epoch1_step4232_val0.187637_bleu0.221698_cider0.131850.pth': : 'qformer_num_query_tokens': ,
+ 'test_batch_size'4False: : 'opsd_temperature',
+ : 32False'qformer'['Bleu_4', 'ROUGE_L'],
+ 'repetition_penalty''val_batch_size''qformer_dropout''query,value''strategy': : : './save/teacher/llama2_7b_label_priv_5ep/checkpoints/trainable_epoch1_step4232_val0.187637_bleu0.221698_cider0.131850.pth',
+ : 'qformer_num_layers'False'Generate a comprehensive and detailed diagnosis report for ''test_batch_size'None
+ './save/teacher/llama2_7b_label_priv_5ep/checkpoints/trainable_epoch1_step4232_val0.187637_bleu0.221698_cider0.131850.pth''Generate a comprehensive and detailed diagnosis report for ''vis_use_lora',
+ : ['Bleu_4', 'ROUGE_L'],
+ None'test_batch_size',
+ ['Bleu_4', 'ROUGE_L']: 0'use_chat_template'None,
+ 0.5'./save/teacher/llama2_7b_label_priv_5ep/checkpoints/trainable_epoch1_step4232_val0.187637_bleu0.221698_cider0.131850.pth': 'teacher_ckpt_file',
+ 'val_batch_size': 'query,value''test_batch_size''configs/experiments/teacher_mimic_llama2_7b_label_priv_5ep.yaml',
+ 'use_chat_template''./save/teacher/llama2_7b_label_priv_5ep/checkpoints/trainable_epoch1_step4232_val0.187637_bleu0.221698_cider0.131850.pth'False: 'vision_model',
+ False'test_batch_size',
+Load checkpoint from save/opsd/llama2_7b_label_teacher_image_student/checkpoints/opsd_student_epoch0_step8462_val0.147867_bleu0.142196_cider0.070276.pth
+Load checkpoint from save/opsd/llama2_7b_label_teacher_image_student/checkpoints/opsd_student_epoch0_step8462_val0.147867_bleu0.142196_cider0.070276.pthLoad checkpoint from save/opsd/llama2_7b_label_teacher_image_student/checkpoints/opsd_student_epoch0_step8462_val0.147867_bleu0.142196_cider0.070276.pth
+Load checkpoint from save/opsd/llama2_7b_label_teacher_image_student/checkpoints/opsd_student_epoch0_step8462_val0.147867_bleu0.142196_cider0.070276.pth
+Load checkpoint from save/opsd/llama2_7b_label_teacher_image_student/checkpoints/opsd_student_epoch0_step8462_val0.147867_bleu0.142196_cider0.070276.pth
+Load checkpoint from save/opsd/llama2_7b_label_teacher_image_student/checkpoints/opsd_student_epoch0_step8462_val0.147867_bleu0.142196_cider0.070276.pth
+Load checkpoint from save/opsd/llama2_7b_label_teacher_image_student/checkpoints/opsd_student_epoch0_step8462_val0.147867_bleu0.142196_cider0.070276.pth
+Testing DataLoader 0:   2%|█▎                                                                              | 1/61 [00:13<13:37, 13.63s/it]Testing DataLoader 0:   3%|██▌                                                                             | 2/61 [00:22<11:09, 11.35s/it]Testing DataLoader 0:   5%|███▉                                                                            | 3/61 [00:31<
+
+## Final 80 log lines
+Initializing distributed: GLOBAL_RANK: 1, MEMBER: 2/8
+Initializing distributed: GLOBAL_RANK: 5, MEMBER: 6/8
+Initializing distributed: GLOBAL_RANK: 4, MEMBER: 5/8
+Initializing distributed: GLOBAL_RANK: 6, MEMBER: 7/8
+Initializing distributed: GLOBAL_RANK: 2, MEMBER: 3/8
+----------------------------------------------------------------------------------------------------
+distributed_backend=nccl
+All distributed processes registered. Starting with 8 processes
+----------------------------------------------------------------------------------------------------
+
+You are using a CUDA device ('NVIDIA Graphics Device') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+[transformers] The `use_fast` parameter is deprecated and will be removed in a future version. Use `backend="torchvision"` instead of `use_fast=True`, or `backend="pil"` instead of `use_fast=False`.
+[transformers] The `use_fast` parameter is deprecated and will be removed in a future version. Use `backend="torchvision"` instead of `use_fast=True`, or `backend="pil"` instead of `use_fast=False`.
+[transformers] The `use_fast` parameter is deprecated and will be removed in a future version. Use `backend="torchvision"` instead of `use_fast=True`, or `backend="pil"` instead of `use_fast=False`.
+[transformers] The `use_fast` parameter is deprecated and will be removed in a future version. Use `backend="torchvision"` instead of `use_fast=True`, or `backend="pil"` instead of `use_fast=False`.
+[transformers] The `use_fast` parameter is deprecated and will be removed in a future version. Use `backend="torchvision"` instead of `use_fast=True`, or `backend="pil"` instead of `use_fast=False`.
+[transformers] The `use_fast` parameter is deprecated and will be removed in a future version. Use `backend="torchvision"` instead of `use_fast=True`, or `backend="pil"` instead of `use_fast=False`.
+[transformers] The `use_fast` parameter is deprecated and will be removed in a future version. Use `backend="torchvision"` instead of `use_fast=True`, or `backend="pil"` instead of `use_fast=False`.
+[transformers] The `use_fast` parameter is deprecated and will be removed in a future version. Use `backend="torchvision"` instead of `use_fast=True`, or `backend="pil"` instead of `use_fast=False`.
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7]
+LOCAL_RANK: 4 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7]
+LOCAL_RANK: 2 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7]
+LOCAL_RANK: 6 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7]
+LOCAL_RANK: 7 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7]
+LOCAL_RANK: 1 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7]
+LOCAL_RANK: 5 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7]
+LOCAL_RANK: 3 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7]
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:225: PossibleUserWarning: Using `DistributedSampler` with the dataloaders. During `trainer.test()`, it is recommended to use `Trainer(devices=1, num_nodes=1)` to ensure each sample/batch gets evaluated exactly once. Otherwise, multi-device settings use `DistributedSamp
+  rank_zero_warn(
+Testing: 0it [00:00, ?it/s]Testing:   0%|                                                                                                     | 0/61 [00:00<?, ?it/s]Testing DataLoader 0:   0%|                                                                                        | 0/61 [00:00<?, ?it/s][transformers] The following generation flags are not valid and may be ignored: ['temperature'
+[transformers] The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+[transformers] The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[transformers] The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+[transformers] The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[transformers] The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+[transformers] The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[transformers] The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+[transformers] The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[transformers] The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply the penalty only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1121: UserWarning: Passing `no_repeat_ngram_size` with `inputs_embeds` and without `input_ids` to `generate` will apply n-gram constraints only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply the penalty only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1121: UserWarning: Passing `no_repeat_ngram_size` with `inputs_embeds` and without `input_ids` to `generate` will apply n-gram constraints only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply the penalty only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1121: UserWarning: Passing `no_repeat_ngram_size` with `inputs_embeds` and without `input_ids` to `generate` will apply n-gram constraints only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply the penalty only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1121: UserWarning: Passing `no_repeat_ngram_size` with `inputs_embeds` and without `input_ids` to `generate` will apply n-gram constraints only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply the penalty only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1121: UserWarning: Passing `no_repeat_ngram_size` with `inputs_embeds` and without `input_ids` to `generate` will apply n-gram constraints only to newly generated tokens, not to the prompt.
+  warnings.warn(
+[transformers] The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[transformers] The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+[transformers] The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply the penalty only to newly generated tokens, not to the prompt.
+  warnings.warn(
+[transformers] The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1121: UserWarning: Passing `no_repeat_ngram_size` with `inputs_embeds` and without `input_ids` to `generate` will apply n-gram constraints only to newly generated tokens, not to the prompt.
+  warnings.warn(
+[transformers] The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[transformers] The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply the penalty only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1121: UserWarning: Passing `no_repeat_ngram_size` with `inputs_embeds` and without `input_ids` to `generate` will apply n-gram constraints only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply the penalty only to newly generated tokens, not to the prompt.
+  warnings.warn(
+/public/home/ai_user_5/wxm/envs/wxm_qwen_py310/lib/python3.10/site-packages/transformers/generation/utils.py:1121: UserWarning: Passing `no_repeat_ngram_size` with `inputs_embeds` and without `input_ids` to `generate` will apply n-gram constraints only to newly generated tokens, not to the prompt.
+  warnings.warn(
+Testing DataLoader 0:   2%|█▎                                                                              | 1/61 [00:13<13:37, 13.63s/it]Testing DataLoader 0:   3%|██▌                                                                             | 2/61 [00:22<11:09, 11.35s/it]Testing DataLoader 0:   5%|███▉                                                                            | 3/61 [00:31<
+Testing DataLoader 0: 100%|███████████████████████████████████████████████████████████████████████████████| 61/61 [09:44<00:00,  9.59s/it]Testing DataLoader 0: 100%|███████████████████████████████████████████████████████████████████████████████| 61/61 [09:44<00:00,  9.59s/it]
+[rank0]:[W610 11:47:26.518091609 ProcessGroupNCCL.cpp:1250] Warning: WARNING: process group has NOT been destroyed before we destruct ProcessGroupNCCL. On normal program exit, the application should call destroy_process_group to ensure that any pending NCCL operations have finished in this process. In rare cases this process can exit before this point and block the progress of another member of th
